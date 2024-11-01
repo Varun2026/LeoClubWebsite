@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Leo Club of REC </title>
+    <link rel="stylesheet" href="/public/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bfc8fcf787.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="top">
+            <img src="/public/images/leo-removebg-preview.png" alt="logoleo" id="logo">
+            <div>
+            <p class="leo-heading">LEO Club</p>
+            <p class="leo-heading">of Rajalakshmi Engineering College</p>
+            </div>
+        </header>
+        <div class="bot">
+            <button id="jn">Join</button>
+            <button id="dn">Contact Us</button>
+        </div>
+    </div>
+
+    <div>
+        <nav class="three">
+            <ul id="sidemenu">
+                <li><a href="#header">Our Core</a></li>
+                <li><a href="#about">Gallery</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </div>
+
+    <div class="opt">
+        <ul>
+            <li class="tab-links " onclick="navigateTo('home.html')"> About Us</li>
+            <li class="tab-links " onclick="navigateTo('team.html')"> Our Team</li>
+            <li class="tab-links active-link" onclick="navigateTo('impact.html')">Our Impact</li>
+            <li class="tab-links" onclick="navigateTo('contact.html')">Contact Us</li>
+        </ul>
+    </div>
+
+    <div class="abouttop">
+        <p class="parasp"><a href="#"> OUR IMPACTS  </a>  / IMPACTS OF LEO CLUB OF REC</p>
+    </div>
+
+    <div class="abouttop1">
+        <p class="parasp">GLIMPSES OF OUR IMPACT ON SOCIETY</p>
+    </div>
+
+    <div class="faq">
+        <h2>FAQ's</h2>
+        <ul class="accordian">
+            <li>
+                <input type="radio" name="accordian" id="first">
+                <label for="first">Why LEO Club?</label>
+                <div class="content1">
+                    <p>Helping people doesn't just do good—it feels good. And serving alongside others who want to make a difference in the world feels even better. That’s just where the benefits of being a Leo begin.</p>
+                </div>
+            </li>
+
+            <li>
+                <input type="radio" name="accordian" id="second">
+                <label for="second">What is LEO Club all about?</label>
+                <div class="content1">
+                    <p>Helping people doesn't just do good—it feels good. And serving alongside others who want to make a difference in the world feels even better. That’s just where the benefits of being a Leo begin.</p>
+                </div>
+            </li>
+
+            <li>
+                <input type="radio" name="accordian" id="third">
+                <label for="third">Why should you join this club?</label>
+                <div class="content1">
+                    <p>Helping people doesn't just do good—it feels good. And serving alongside others who want to make a difference in the world feels even better. That’s just where the benefits of being a Leo begin.</p>
+                </div>
+            </li>
+
+            <li>
+                <input type="radio" name="accordian" id="fourth">
+                <label for="fourth">How to join this club?</label>
+                <div class="content1">
+                    <p>Helping people doesn't just do good—it feels good. And serving alongside others who want to make a difference in the world feels even better. That’s just where the benefits of being a Leo begin.</p>
+                </div>
+            </li>
+        </ul>
+        <div class="divv">
+            <small>
+                Ready to Join? Click the button below to start your membership.
+            </small>
+            <form class="email-sign">
+                <button type="submit">Get Started</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="foot">
+            <div class="cpy">
+                <p>Leo Club REC <i class="fa-regular fa-copyright"></i> 2024</p>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/varun-kumar-v-12a37524a/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/8248923711" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <div class="abtf">
+                <a href="#" target="_blank">About Us</a>
+                <a href="#" target="_blank">Our Impact</a>
+                <a href="#" target="_blank">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+    <script src="/routes/main1.js" charset="utf-8"></script>
+</body>
+</html>
